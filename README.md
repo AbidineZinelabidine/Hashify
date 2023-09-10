@@ -1,5 +1,5 @@
 ### [*] Description : 
-*** Hashify is a simple tool that converts text into multiple types of hashes and cryptographies ***
+***Hashify is a simple tool that converts text into multiple types of hashes and cryptographies***
 ### [*] Supported hashes:
         - MD5
         - MD4
@@ -7,23 +7,25 @@
         - SHA-512
         - SHA-1
         - ROT-13
+
+
 Every update may add other hashes :)
 ### [~] Features:
-- Tool is designed with colors 
+- Designed with colors 
 - Output hashes to file
 - Animation when printing
 - Quiet mode
 
 ### Installation:
 
-' pip3 install -r requirements '
+` pip3 install -r requirements `
 
 
 
 ### Usage:
 
 
-'''
+```
 usage: python3 hashify.py [-h] [-q] [-o OUTPUT] [-v] text
 
 Hashify is a tool to generate multiple hashes from user input
@@ -37,5 +39,4 @@ options:
   -o OUTPUT, --output OUTPUT
                         Write output to file
   -v, --version         Print version number
-'''
-
+```
