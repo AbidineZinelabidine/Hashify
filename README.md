@@ -16,8 +16,8 @@ Every update may add other hashes :)
 
 ### Installation:
 
-'pip3 install -r requirements'
-'python3 hashify.py -h'
+' pip3 install -r requirements '
+
 
 
 ### Usage:
